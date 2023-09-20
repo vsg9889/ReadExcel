@@ -1,5 +1,6 @@
 {
   "name": "Read Excel",
+  "projectId": "dc832608-ad3c-488d-8e49-994cd9acee89",
   "description": "Read Excel",
   "main": "Main.xaml",
   "dependencies": {
@@ -21,6 +22,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -28,7 +30,8 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": true
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
